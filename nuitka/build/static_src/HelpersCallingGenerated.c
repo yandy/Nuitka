@@ -9,6 +9,7 @@
 
 // We are switching some warnings off for this code, as they are triggered
 // by the generated code constructs in a way that is not useful.
+// spell-checker: ignore Wparentheses GNUC
 #if defined(__clang__)
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wparentheses-equality"
